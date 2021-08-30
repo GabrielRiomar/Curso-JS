@@ -7,53 +7,53 @@
 // console.log(altura);
 
 // AULA 02
-//const = variavel constante, não pode ser alterada
-//let = variavel que pode ser alterada a qualquer momento
-// const ValorIngressoAdulto = 20;
-// console.log(ValorIngressoAdulto)
+const = variavel constante, não pode ser alterada
+let = variavel que pode ser alterada a qualquer momento
+const ValorIngressoAdulto = 20;
+console.log(ValorIngressoAdulto)
 
 //Aula 03
-// let nome = 'Rafael'; //string literal
-// let idade = 25; //number literal
-// let estaAprovado = true; //boolean
-// let sobrenome = 'De Souza'; //Undefined
-// let corSelecionado = null; //Redefinir um valor
+let nome = 'Rafael'; //string literal
+let idade = 25; //number literal
+let estaAprovado = true; //boolean
+let sobrenome = 'De Souza'; //Undefined
+let corSelecionado = null; //Redefinir um valor
 
 //Aula 04
-// let pessoa = {
-//     nome: 'Rafael', idade: 25, estaAprovado: true, sobrenome: 'De Souza'
-// };
-// console.log(pessoa);
+let pessoa = {
+    nome: 'Rafael', idade: 25, estaAprovado: true, sobrenome: 'De Souza'
+};
+console.log(pessoa);
 
 //Aula 05 - Arrays
-// let familia = [26,45,50,17]
-// console.log(familia.length)
-// console.log
+let familia = [26,45,50,17]
+console.log(familia.length)
+console.log
 
 //Aula 06
 //Verbo + Substantivo = Função
-// let corSite = "Azul";
-// function resetaCor(cor, tonalidade){
-//     corSite = cor + " " +tonalidade;
-// };
-// console.log(corSite);
-// resetaCor('verde', 'claro');
-// console.log(corSite);
+let corSite = "Azul";
+function resetaCor(cor, tonalidade){
+    corSite = cor + " " +tonalidade;
+};
+console.log(corSite);
+resetaCor('verde', 'claro');
+console.log(corSite);
 
 //Aula 07 - funções
 //Realiza uma tarefa, não devolve nada
-// function dizerNome(){
-//     console.log('johnathan')
-// };
-// dizerNome();
+function dizerNome(){
+    console.log('johnathan')
+};
+dizerNome();
 
-// //Faz um calculo ou operação e retorna algo
-// function MultiplicarPorDois(valor){
-//     return valor*2
-// };
-// //console.log(MultiplicarPorDois(5));
-// let resultado = MultiplicarPorDois(5)
-// console.log(resultado);
+//Faz um calculo ou operação e retorna algo
+function MultiplicarPorDois(valor){
+    return valor*2
+};
+//console.log(MultiplicarPorDois(5));
+let resultado = MultiplicarPorDois(5)
+console.log(resultado);
 
 //Aula 08
 //Operadores Aritiméticos(matemáticos)
@@ -66,11 +66,11 @@
 //1- Operadores Aritiméticos(matemáticos)
 let salario = 100;
 // +, -, *, /, **
-// console.log(salario + salario);
-// console.log(salario - salario);
-// console.log(salario * salario);
-// console.log(salario / salario);
-// console.log(5 ** 5);
+console.log(salario + salario);
+console.log(salario - salario);
+console.log(salario * salario);
+console.log(salario / salario);
+console.log(5 ** 5);
 
 //++ --
 let idade = 18;
